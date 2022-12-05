@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная страница</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <nav class="header__navigation">
+                    <ul class="header__menu">
+                        <li class="header__menu-logo">
+                            <a href="#" class="header__menu-link-logo"><img src="img/Лого.svg" alt=""
+                                    class="header__logo-img"></a>
+                        </li>
+                        <li class="header__menu-el"><a href="models.html" class="header__menu-link">Модели</a></li>
+                        <li class="header__menu-el"><a href="universal.html" class="header__menu-link">В наличии</a>
+                        </li>
+                        <li class="header__menu-el"><a href="universal.html" class="header__menu-link">Конфигуратор</a>
+                        </li>
+                        <li class="header__menu-el"><a href="services.html" class="header__menu-link">Услуги</a></li>
+                        <li class="header__menu-el"><a href="universal.html" class="header__menu-link">Поддержка</a>
+                        </li>
+                        <li class="header__menu-el"><a href="universal.html" class="header__menu-link">Проект</a></li>
+                        <li class="header__menu-el"><a href="universal.html" class="header__menu-link">Компания</a></li>
+                        <li class="header__contact-el">Санкт-Петербург</li>
+                        <li class="header__contact-el"><a href="tel:+78005553535" class="tel">8 (800) 555-35-35</a></li>
+                        <li class="header__search">
+                            <a href="universal.html" class="header__menu-links">
+                                <svg width="43" height="39" viewBox="0 0 43 39" fill="none" xmlns="http://www.w3.org/2000/svg" class="header__icon">
+                                    <circle cx="15.5121" cy="15.1198" r="12.4672" stroke="#D7F498" stroke-width="5"/>
+                                    <line x1="26.7941" y1="22.8665" x2="41.1163" y2="37.1887" stroke="#D7F498" stroke-width="5"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="header__basket">
+                            <a href="universal.html" class="header__menu-links">
+                                <svg width="33" height="36" viewBox="0 0 33 36" fill="none" xmlns="http://www.w3.org/2000/svg" class="header__icon">
+                                    <path d="M24.0953 12.3184V8.70477C24.0953 4.71329 20.5962 2 16.2264 2C11.8566 2 8.27075 4.71329 8.27075 8.70477V12.3184M6.04465 33.8876L26.7981 33.9811C29.0845 33.9914 30.9143 32.0864 30.8121 29.8023L30.2005 16.1395C30.1048 14.0021 28.3441 12.3184 26.2045 12.3184H6.27458C4.08979 12.3184 2.30918 14.0714 2.27506 16.2559L2.06316 29.8252C2.02839 32.0514 3.81816 33.8776 6.04465 33.8876Z" stroke="#D7F498" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                        </li>
+
+                        <div class="hamburger-menu">
+                            <input id="menu__toggle" type="checkbox" />
+                            <label class="menu__btn" for="menu__toggle">
+                                <span></span>
+                            </label>
+                            <ul class="menu__box">
+                                <li><a class="menu__item" href="index.html">Главная</a></li>
+                                <li><a class="menu__item" href="models.html">Модели</a></li>
+                                <li><a class="menu__item" href="universal.html">В наличии</a></li>
+                                <li><a class="menu__item" href="services.html">Услуги</a></li>
+                                <li><a class="menu__item" href="universal.html">Поддержка</a></li>
+                                <li><a class="menu__item" href="universal.html">Проект</a></li>
+                                <li><a class="menu__item" href="universal.html">Компания</a></li>
+                            </ul>
+                        </div>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section class="hero">
+            <div class="main_slider">
+                <ul>
+                    <li class="sl1">
+                        <div class="main_slider-wrp">
+                            <div class="main_slider-title">ПРОДЛЕВАЕМ ЛЕТО
+                                РОЗЫГРЫШЕМ ЯРКОГО
+                                HEROPC LUMEN</div>
+                            <div class="main_slider-text">УЧАЙВСТВУЙ В РОЗЫГРЫШЕ ПК, ИГР И АКСЕССУАРОВ</div>
+
+                        </div>
+                        <button onclick="document.location='/universal.html'" class="hero__more">ПОДРОБНЕЕ</button>
+                    </li>
+                    <li class="sl2">
+                        <div class="main_slider-wrp">
+                            <div class="main_slider-title">ТОПОВЫЕ ПК ДЛЯ ИГР</div>
+                            <div class="main_slider-text">МЫ СОБИРАЕМ ПК ДЛЯ САМЫХ СОВРЕМЕННЫХ И ТРЕБОВАТЕЛЬНЫХ ИГР ПО ВАШИМ ЗАПРОСАМ</div>
+                        </div>
+                        <button onclick="document.location='/models.html'" class="hero__more">ПОДРОБНЕЕ</button>
+
+                    </li>
+                    <li class="sl3">
+                        <div class="main_slider-wrp">
+                            <div class="main_slider-title">ОБМЕН СТАРОГО НА НОВОЕ</div>
+                            <div class="main_slider-text">ПОМЕНЯЕМ ВАШ СТАРЫЙ ПК НА УЛУЧШЕННЫЙ НОВЫЙ КОМПЬЮТЕР</div>
+                        </div>
+                        <button onclick="document.location='/services.html'" class="hero__more">ПОДРОБНЕЕ</button>
+
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="bar">
+            <div class="container">
+                <ul class="bar__menu">
+                    <li class="bar__el">
+                        <a href="models.html">
+                            <div class="bar__models">
+                                <img src="img/Модели.svg" alt="" class="bar__models-img">
+                                <p class="bar__models_p">Все модели</p>
+                            </div>
+                        </a>
+
+                    </li>
+                    <li class="bar__el">
+                        <a href="universal.html">
+                            <div class="bar__models">
+                                <img src="img/ПК.svg" alt="" class="bar__models-img">
+                                <p class="bar__models_p">ПК в наличии</p>
+                            </div>
+                        </a>
+
+                    </li>
+                    <li class="bar__el">
+                        <a href="models.html">
+                            <div class="bar__models">
+                                <img src="img/Шестирёнка.svg" alt="" class="bar__models-img">
+                                <p class="bar__models_p">Конфигуратор</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="bar__el">
+                        <a href="services.html">
+                            <div class="bar__models">
+                                <img src="img/Подбор.svg" alt="" class="bar__models-img">
+                                <p class="bar__models_p">Подбор</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="bar__el">
+                        <a href="services.html">
+                            <div class="bar__models">
+                                <img src="img/Vector.svg" alt="" class="bar__models-img">
+                                <p class="bar__models_p">Сравнение</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="bar__el">
+                        <a href="universal.html">
+                            <div class="bar__models">
+                                <img src="img/Vectora.svg" alt="" class="bar__models-img">
+                                <p class="bar__models_p">Трейд-ин</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="bar__el">
+                        <a href="universal.html">
+                            <div class="bar__models">
+                                <img src="img/Монетки.svg" alt="" class="bar__models-img">
+                                <p class="bar__models_p">Расчёт кредита</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="categories">
+            <div class="container">
+                <div class="categories__slogan">
+                    <div class="slogan__top">
+                        <h2 class="title categories__title">Создаём компьютеры, которые будут дарить геймерам
+                            и творческим профессионалам удовольствие от использования.
+                        </h2>
+                    </div>
+                    <div class="slogan__bottom">
+                        <a href="universal.html"><button class="pick_up">ПОДОБРАТЬ ПК</button></a>
+                    </div>
+                </div>
+                <ul class="categories__el">
+                    <li class="categories__cards">
+                        <div class="categories__card">
+                            <img src="img/Игровые ноутбуки.svg" alt="" class="categories__img">
+                            <h3 class="card__title">Игровые ноутбуки</h3>
+                            <p>Мощные и ультратонкие
+                                игровые ноутбуки
+                            </p>
+                            <p>от 122 901 ₽</p>
+                            <a href="universal.html">
+                                <div class="categories__button"><button class="categories__more">Подробнее</button>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="categories__cards">
+                        <div class="categories__card">
+                            <img src="img/Игровые компьютеры.svg" alt="" class="categories__img">
+                            <h3 class="card__title">Игровые компьютеры</h3>
+                            <p>Самые лучшие игровые компьютеры
+                                HeroPC
+                            </p>
+                            <p>от 155 990 ₽ </p>
+                            <a href="universal.html">
+                                <div class="categories__button"><button class="categories__more">Подробнее</button>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="categories__cards">
+                        <div class="categories__card">
+                            <img src="img/Концепт.svg" alt="" class="categories__img">
+                            <h3 class="card__title">Концепт компьютеры</h3>
+                            <p>Эксклюзивные решения с
+                                кастомным охлаждением
+                            </p>
+                            <p>от 822 000 ₽</p>
+                            <a href="universal.html">
+                                <div class="categories__button"><button class="categories__more">Подробнее</button>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="categories__cards">
+                        <div class="categories__card">
+                            <img src="img/Рабочие станции.svg" alt="" class="categories__img">
+                            <h3 class="card__title">Рабочие станции</h3>
+                            <p>Проффесиональные решения для
+                                работы и творчества
+                            </p>
+                            <p>от 154 190 ₽ </p>
+                            <a href="universal.html">
+                                <div class="categories__button"><button class="categories__more">Подробнее</button>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="categories__cards">
+                        <div class="categories__card">
+                            <img src="img/Конфигуратор.svg" alt="" class="categories__img">
+                            <h3 class="card__title">Конфигуратор ПК</h3>
+                            <p>Создайте свой компьютер мечты в
+                                конфигураторе
+                            </p>
+                            <p>от 100 000 ₽ </p>
+                            <a href="universal.html">
+                                <div class="categories__button"><button class="categories__more">Подробнее</button>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+                <div class="categories__line">
+                    <img src="img/Line.svg" alt="" class="line">
+                </div>
+            </div>
+        </section>
+        <section class="catalog">
+            <div class="container">
+                <div class="title__top">
+                    <h2 class="catalog__title">
+                        HEROPC это восхитительный дизайн, высокая производительность,
+                        безупречное качество и персональный сервис.
+                    </h2>
+                </div>
+                <ul class="catalog__el">
+                    <li class="catalog__cards">
+                        <div class="catalog__card">
+                            <img src="img/Игровые ноутбуки.svg" alt="" class="catalog__img">
+                            <h3 class="catalog__h3">PLAY 15</h3>
+                            <P class="catalog__text">Возьми игру с собой</P>
+                            <a href="universal.html">
+                                <p class="catalog__p">конфигуратор ></p>
+                            </a>
+                            <a href="universal.html">
+                                <p class="catalog__p">подробнее ></p>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="catalog__cards">
+                        <div class="catalog__card">
+                            <img src="img/люмен.svg" alt="" class="catalog__img">
+                            <h3 class="catalog__h3">LUMEN</h3>
+                            <P class="catalog__text">Заново изобретая эталон</P>
+                            <a href="universal.html">
+                                <p class="catalog__p">конфигуратор ></p>
+                            </a>
+                            <a href="universal.html">
+                                <p class="catalog__p">подробнее ></p>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="catalog__cards">
+                        <div class="catalog__card">
+                            <img src="img/кибер.svg" alt="" class="catalog__img">
+                            <h3 class="catalog__h3">CYBER</h3>
+                            <P class="catalog__text">Компьютер будущего</P>
+                            <a href="universal.html">
+                                <p class="catalog__p">конфигуратор ></p>
+                            </a>
+                            <a href="universal.html">
+                                <p class="catalog__p">подробнее ></p>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="catalog__cards">
+                        <div class="catalog__card">
+                            <img src="img/Invader.svg" alt="" class="catalog__img">
+                            <h3 class="catalog__h3">INVADER</h3>
+                            <P class="catalog__text">Футуристичный игровой компьютер</P>
+                            <a href="universal.html">
+                                <p class="catalog__p">конфигуратор ></p>
+                            </a>
+                            <a href="universal.html">
+                                <p class="catalog__p">подробнее ></p>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="catalog__cards">
+                        <div class="catalog__card">
+                            <img src="img/Volt.svg" alt="" class="catalog__img">
+                            <h3 class="catalog__h3">VOLT</h3>
+                            <P class="catalog__text">Современный игровой компьютер</P>
+                            <a href="universal.html">
+                                <p class="catalog__p">конфигуратор ></p>
+                            </a>
+                            <a href="universal.html">
+                                <p class="catalog__p">подробнее ></p>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="catalog__cards">
+                        <div class="catalog__card">
+                            <img src="img/Ampere.svg" alt="" class="catalog__img">
+                            <h3 class="catalog__h3">AMPERE</h3>
+                            <P class="catalog__text">Как никто другой</P>
+                            <a href="universal.html">
+                                <p class="catalog__p">конфигуратор ></p>
+                            </a>
+                            <a href="universal.html">
+                                <p class="catalog__p">подробнее ></p>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+                <div class="catalog__line">
+                    <img src="img/Line.svg" alt="" class="line">
+                </div>
+            </div>
+        </section>
+        <section class="selection">
+            <div class="container">
+                <h2 class="selection__h3">Подобрать компьютер</h2>
+                <ul class="selection__top">
+                    <li class="selection__top-el">
+                        <a href="universal.html">
+                            <div class="selection_el">
+                                <div class="selection_el__img">
+                                    <img src="img/Подбор.svg" alt="" class="selection__img">
+                                </div>
+                                <p class="selection__p">По параметрам</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="selection__top-el">
+                        <a href="universal.html">
+                            <div class="selection_el">
+                                <div class="selection_el__img">
+                                    <img src="img/console.svg" alt="" class="selection__img">
+                                </div>
+                                <p class="selection__p">Для игр</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="selection__top-el">
+                        <a href="universal.html">
+                            <div class="selection_el">
+                                <div class="selection_el__img">
+                                    <img src="img/Work.svg" alt="" class="selection__img">
+                                </div>
+                                <p class="selection__p">Для работы</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <div class="selection_el__img">
+                    <img src="img/arrow-bottom.svg" alt="" class="selection__arrow">
+                </div>
+                <h2 class="selection__h3">Разрешение</h2>
+                <ul class="selection__bottom">
+                    <li class="selection__bottom-el">
+                        <div class="selection_el">
+                            <p class="selection__p2">FullHD (1920x1080)</p>
+                        </div>
+                    </li>
+                    <li class="selection__bottom-el">
+                        <div class="selection_el">
+                            <p class="selection__p2">2K (2560x1440)</p>
+                        </div>
+                    </li>
+                    <li class="selection__bottom-el">
+                        <div class="selection_el">
+                            <p class="selection__p2">4K (3840x2160)</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="periphery">
+                <div class="periphery__h2">
+                <h2 class="periphery__title">Периферия</h2>
+                </div>
+                <div class="periphery__list">
+                <ul class="periphery__el">
+                    <a href="universal.html">
+                        <li class="periphery__cards">
+                            <div class="periphery__card">
+                                <img src="img/Screen.svg" alt="" class="periphery__img">
+                                <p class="periphery__txt">Мониторы</p>
+                            </div>
+                        </li>
+                    </a>
+                    <a href="universal.html">
+                        <li class="periphery__cards">
+                            <div class="periphery__card">
+                                <img src="img/Mouse.svg" alt="" class="periphery__img">
+                                <p class="periphery__txt">Мыши</p>
+                            </div>
+                        </li>
+                    </a>
+                    <a href="universal.html">
+                        <li class="periphery__cards">
+                            <div class="periphery__card">
+                                <img src="img/Keyboard.svg" alt="" class="periphery__img">
+                                <p class="periphery__txt">Клавиатуры</p>
+                            </div>
+                        </li>
+                    </a>
+                    <a href="universal.html">
+                        <li class="periphery__cards">
+                            <div class="periphery__card">
+                                <img src="img/Headphones.svg" alt="" class="periphery__img">
+                                <p class="periphery__txt">Наушники</p>
+                            </div>
+                        </li>
+                    </a>
+                    <a href="universal.html">
+                        <li class="periphery__cards">
+                            <div class="periphery__card">
+                                <img src="img/Microphone.svg" alt="" class="periphery__img">
+                                <p class="periphery__txt">Микрофоны</p>
+                            </div>
+                        </li>
+                    </a>
+                    <a href="universal.html">
+                        <li class="periphery__cards">
+                            <div class="periphery__card all">
+                                <img src="img/All.svg" alt="" class="periphery__img-all">
+                                <p class="periphery__txt">Смотреть все</p>
+                            </div>
+                        </li>
+                    </a>
+                </ul>
+            </div>
+        </section>
+        <section class="services">
+            <div class="container">
+                <h2 class="services__h2">Услуги</h2>
+                <p class="services__p"><a href="services.html" class="services__linq ">Смотреть все услуги ></a></p>
+                <div class="services__list">
+                <ul class="services__els">
+                    <li class="services__el">
+                        <div class="card-1">
+                            <h3 class="services__h3">Апгрейд-центр</h3>
+                            <p class="services__card-p"><a href="universal.html" class="services__card-p-linq">Узнать
+                                    больше ></a></p>
+                        </div>
+                    </li>
+                    <li class="services__el">
+                        <div class="card-2">
+                            <h3 class="services__h3">Тех. обслуживание</h3>
+                            <p class="services__card-p"><a href="universal.html" class="services__card-p-linq">Узнать
+                                    больше ></a></p>
+                        </div>
+                    </li>
+                    <li class="services__el">
+                        <div class="card-3">
+                            <h3 class="services__h3">Сервис-центр</h3>
+                            <p class="services__card-p"><a href="universal.html" class="services__card-p-linq">Узнать
+                                    больше ></a></p>
+                        </div>
+                    </li>
+                    <li class="services__el">
+                        <div class="card-4">
+                            <h3 class="services__h3">Моддинг</h3>
+                            <p class="services__card-p"><a href="universal.html" class="services__card-p-linq">Узнать
+                                    больше ></a></p>
+                        </div>
+                    </li>
+                    <li class="services__el">
+                        <div class="card-5">
+                            <h3 class="services__h3">Трейд-ин</h3>
+                            <p class="services__card-p"><a href="universal.html" class="services__card-p-linq">Узнать
+                                    больше ></a></p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+                <div class="catalog__line">
+                    <img src="img/Line.svg" alt="" class="line">
+                </div>
+            </div>
+        </section>
+        <section class="why-we">
+            <div class="container">
+                <h2 class="why-we__h2">Почему мы?</h2>
+                <div class="why-we_block">
+                    <div class="why-we__gif">
+                        <iframe src="https://giphy.com/embed/kFgzrTt798d2w" width="760" frameBorder="0" class="gif"
+                            allowFullScreen></iframe>
+                    </div>
+                    <div class="why-we__txt">
+                        <h3 class="why-we__h3">Что нас делает первыми уже 13 лет</h3>
+                        <ul class="why-we__txt-elements">
+                            <li class="why-we__txt-el">
+                                <p class="why-we__p">Официальные партнеры NVIDIA, Intel и Microsoft</p>
+                            </li>
+                            <li class="why-we__txt-el">
+                                <p class="why-we__p">Самый продвинутый онлайн конфигуратор компьютеров</p>
+                            </li>
+                            <li class="why-we__txt-el">
+                                <p class="why-we__p">Только лучшие комплектующие и передовые технологии</p>
+                            </li>
+                            <li class="why-we__txt-el">
+                                <p class="why-we__p">Профессиональная сборка и кастомизация</p>
+                            </li>
+                            <li class="why-we__txt-el">
+                                <p class="why-we__p">Специальное стресс-тестирование и установка ПО</p>
+                            </li>
+                            <li class="why-we__txt-el">
+                                <p class="why-we__p">Доставка, установка и настройка компьютера под ключ</p>
+                            </li>
+                            <li class="why-we__txt-el">
+                                <p class="why-we__p">Собственное производство</p>
+                            </li>
+                            <li class="why-we__txt-el">
+                                <p class="why-we__p">Шоурумы в Москве и Санкт-Петербурге с компьютерами в наличии</p>
+                            </li>
+                            <li class="why-we__button-el">
+                                <a href="universal.html" class="why-me__more-linq">
+                                    <div class="why__button">
+                                        <button class="more">УЗНАТЬ БОЛЬШЕ</button>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="why-we__cards">
+                    <ul class="why-we__cards-el">
+                        <li class="why-we__el">
+                            <div class="why-we__card">
+                                <h3 class="why-we__card-h3">13 лет</h3>
+                                <p class="why-we__card-p">За 13 лет выросли в лидера в игровом компьютерном рынке</p>
+                            </div>
+                        </li>
+                        <li class="why-we__el">
+                            <div class="why-we__card">
+                                <h3 class="why-we__card-h3">25 000 ПК</h3>
+                                <p class="why-we__card-p">Мы произвели более 25 тысяч игровых компьютеров для наших
+                                    клиентов</p>
+                            </div>
+                        </li>
+                        <li class="why-we__el">
+                            <div class="why-we__card">
+                                <h3 class="why-we__card-h3">32 турнира</h3>
+                                <p class="why-we__card-p">Провели 32 киберспортивных турнира при технической поддержке
+                                    HYPERPC</p>
+                            </div>
+                        </li>
+                        <li class="why-we__el">
+                            <div class="why-we__card">
+                                <h3 class="why-we__card-h3">64 блогера</h3>
+                                <p class="why-we__card-p">Топовых 64 ютуб блогеров и стримеров выбрали компьютер HYPERPC
+                                </p>
+                            </div>
+                        </li>
+                        <li class="why-we__el">
+                            <div class="why-we__card">
+                                <h3 class="why-we__card-h3">44 клуба</h3>
+                                <p class="why-we__card-p">Оборудовали 44 компьютерных клубов под ключ, присутствует
+                                    программа лизинга</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="footer__top">
+            <div class="container">
+                <div class="LotsOfLinks">
+                    <ul class="LotsOfLinks__models">
+                        <li class="LotsOfLinks__models-title"><a href="models.html"
+                                class="footer__linq-title">Модели</a></li>
+                        <li class="LotsOfLinks__models-ordinary"><a href="universal.html" class="footer__linq">Игровые
+                                компьютеры</a></li>
+                        <li class="LotsOfLinks__models-ordinary"><a href="universal.html" class="footer__linq">Рабочие
+                                станции</a></li>
+                        <li class="LotsOfLinks__models-ordinary"><a href="universal.html" class="footer__linq">Игровые
+                                ноутбуки</a></li>
+                        <li class="LotsOfLinks__models-ordinary"><a href="universal.html"
+                                class="footer__linq">Каталог</a></li>
+                    </ul>
+                    <ul class="LotsOfLinks__servises">
+                        <li class="LotsOfLinks__servises-title"><a href="services.html"
+                                class="footer__linq-title">Услуги</a></li>
+                        <li class="LotsOfLinks__servises-ordinary"><a href="universal.html"
+                                class="footer__linq">Модернизация</a></li>
+                        <li class="LotsOfLinks__servises-ordinary"><a href="universal.html"
+                                class="footer__linq">Техническое обслуживание</a></li>
+                        <li class="LotsOfLinks__servises-ordinary"><a href="universal.html" class="footer__linq">Моддинг
+                                и кастомизация</a></li>
+                        <li class="LotsOfLinks__servises-ordinary"><a href="universal.html"
+                                class="footer__linq">Сервис-центр</a></li>
+                        <li class="LotsOfLinks__servises-ordinary"><a href="universal.html"
+                                class="footer__linq">Трейд-ин</a></li>
+                    </ul>
+                    <ul class="LotsOfLinks__support">
+                        <li class="LotsOfLinks__support-title"><a href="universal.html"
+                                class="footer__linq-title">Поддержка</a></li>
+                        <li class="LotsOfLinks__support-ordinary"><a href="universal.html"
+                                class="footer__linq">Доставка</a></li>
+                        <li class="LotsOfLinks__support-ordinary"><a href="universal.html"
+                                class="footer__linq">Оплата</a></li>
+                        <li class="LotsOfLinks__support-ordinary"><a href="universal.html"
+                                class="footer__linq">Рассрочка и кредит</a></li>
+                        <li class="LotsOfLinks__support-ordinary"><a href="universal.html"
+                                class="footer__linq">Гарантия</a></li>
+                        <li class="LotsOfLinks__support-ordinary"><a href="universal.html" class="footer__linq">FAQ</a>
+                        </li>
+                        <li class="LotsOfLinks__support-ordinary"><a href="universal.html" class="footer__linq">База
+                                знаний</a></li>
+                        <li class="LotsOfLinks__support-ordinary"><a href="universal.html" class="footer__linq">Запись
+                                на сервис</a></li>
+                    </ul>
+                    <ul class="LotsOfLinks__project">
+                        <li class="LotsOfLinks__project-title"><a href="universal.html"
+                                class="footer__linq-title">Проекты</a></li>
+                        <li class="LotsOfLinks__project-ordinary"><a href="universal.html"
+                                class="footer__linq">Блогеры</a></li>
+                        <li class="LotsOfLinks__project-ordinary"><a href="universal.html" class="footer__linq">Игровые
+                                клубы</a></li>
+                        <li class="LotsOfLinks__project-ordinary"><a href="universal.html"
+                                class="footer__linq">Киберспорт</a></li>
+                        <li class="LotsOfLinks__project-ordinary"><a href="universal.html"
+                                class="footer__linq">Мероприятия</a></li>
+                        <li class="LotsOfLinks__project-ordinary"><a href="universal.html" class="footer__linq">Наше
+                                производство</a></li>
+                    </ul>
+                    <ul class="LotsOfLinks__company">
+                        <li class="LotsOfLinks__company-title"><a href="universal.html"
+                                class="footer__linq-title">Компания</a></li>
+                        <li class="LotsOfLinks__company-ordinary"><a href="universal.html"
+                                class="footer__linq">Контакты</a></li>
+                        <li class="LotsOfLinks__company-ordinary"><a href="universal.html" class="footer__linq">О
+                                нас</a></li>
+                        <li class="LotsOfLinks__company-ordinary"><a href="universal.html" class="footer__linq">Почему
+                                мы?</a></li>
+                        <li class="LotsOfLinks__company-ordinary"><a href="universal.html"
+                                class="footer__linq">Новости</a></li>
+                        <li class="LotsOfLinks__company-ordinary"><a href="universal.html"
+                                class="footer__linq">Статьи</a></li>
+                        <li class="LotsOfLinks__company-ordinary"><a href="universal.html"
+                                class="footer__linq">Вакансии</a></li>
+                    </ul>
+                    <ul class="LotsOfLinks__contacts">
+                        <li class="LotsOfLinks__contacts-title">Контакты</li>
+                        <li class="LotsOfLinks__contacts-ordinary">8 (800) 555-35-35</li>
+                        <li class="LotsOfLinks__contacts-ordinary">г. Санкт-Петербург</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="container">
+                <div class="social">
+                    <ul class="social__elements">
+                        <li class="social__el">
+                            <a href="https://vk.com/club209036566" class="social__linq">
+                                <img src="img/VK.svg" alt="" class="social__img">
+                            </a>
+                            <a href="https://vk.com/club209036566" class="social__linq">
+                                <p class="social__p">ВКОНТАКТЕ 1.2млн подписчиков</p>
+                            </a>
+                        </li>
+
+                        <li class="social__el">
+                            <a href="https://www.tiktok.com/@_in_fer_?_t=8W5M8hryf1F&_r=1" class="social__linq">
+                                <img src="img/TIKTOK.svg" alt="" class="social__img">
+                            </a>
+                            <a href="https://www.tiktok.com/@_in_fer_?_t=8W5M8hryf1F&_r=1" class="social__linq">
+                                <p class="social__p">TIKTOK 750к подписчиков</p>
+                            </a>
+                        </li>
+
+                        <li class="social__el">
+                            <a href="https://www.youtube.com/channel/UCPcBq-Uanhu72w8dm667K7g/featured"
+                                class="social__linq">
+                                <img src="img/YOUTUBE.svg" alt="" class="social__img">
+                            </a>
+                            <a href="https://www.youtube.com/channel/UCPcBq-Uanhu72w8dm667K7g/featured"
+                                class="social__linq">
+                                <p class="social__p">YOUTUBE 55 млн просмотров</p>
+                            </a>
+                        </li>
+
+                        <li class="social__el">
+                            <a href="https://t.me/+mfrnyzI4Nps5MzQy" class="social__linq">
+                                <img src="img/TELEGRAM.svg" alt="" class="social__img">
+                            </a>
+                            <a href="https://t.me/+mfrnyzI4Nps5MzQy" class="social__linq">
+                                <p class="social__p">TELEGRAM 12k подписчиков </p>
+                            </a>
+                        </li>
+
+                        <li class="social__el">
+                            <a href="https://dzen.ru/id/5e58093651fa7c4cee464694" class="social__linq">
+                                <img src="img/ANDEX.svg" alt="" class="social__img">
+                            </a>
+                            <a href="https://dzen.ru/id/5e58093651fa7c4cee464694" class="social__linq">
+                                <p class="social__p">ЯНДЕКС.ДЗЕН 1000 подписчиков</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="copyrate">
+                    <p class="copyrate__p">© With Russia from Love 1999-9991</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+    <div class="elfsight-app-bccd71b8-d5b3-4c90-8ca3-217c5939aad7"></div>
+    <script src="https://snipp.ru/cdn/jquery/2.1.1/jquery.min.js"></script>
+    <script src="/js/jquery.bxslider.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.main_slider ul').bxSlider({
+                pager: false,
+                controls: true,
+                mode: 'fade',
+                auto: true,
+                pause: 4000,
+                touchEnabled: false
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function() {
+            $("body").css("opacity", "1");
+        });
+    </script>
+</body>
+</html>

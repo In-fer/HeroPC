@@ -1,0 +1,25 @@
+.bar__menu {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bar__el {
+    display: flex;
+}
+
+.bar__models {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.bar__models-img {
+    height: 60px;
+}
+
+.bar {
+    background-color: #202020;
+}

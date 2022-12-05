@@ -1,0 +1,64 @@
+.models__categories {
+    background-color: #202020;
+    color: white;
+    display: flex;
+}
+
+.models__categories__title {
+    padding-top: 181px;
+    font-size: 2rem;
+    text-align: center;
+    width: 1041px;
+}
+
+.models__categories__slogan {
+    flex-direction: column;
+}
+
+.models__slogan__top {
+    display: flex;
+    justify-content: center;
+}
+
+.models__slogan__bottom {
+    display: flex;
+    justify-content: center;
+}
+
+.models__pick_up {
+    width: 170px;
+    background-color: #BDED53;
+    border: none;
+    height: 38px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.models__categories__el {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.models__categories__card {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    width: 250px;
+    text-align: center;
+}
+
+.models__categories__more {
+    width: 150px;
+    background-color: #BDED53;
+    border: none;
+    height: 35px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.models__categories__line {
+    margin-left: -200px;
+    margin-top: 30px;
+}

@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <title>Универсальная страница</title>
+
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=d84e78ba-0147-4c9a-95c7-6b0d981b2bc7&lang=ru_RU" type="text/javascript">
+    </script>
+</head>
+
+<body>
+    <a href="#modal-one" class="btn-modal" id="open"></a>
+
+    <!-- Модальное окно -->
+<div class="modal" id="modal-one" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-header">
+			Добро пожаловать на сайт HeroPC
+			<a href="#close" class="btn-close" aria-hidden="true">×</a>
+		</div>
+		<div class="modal-body">
+			Данный сайт строго 18+... Шучу, нам всё равно, веселитесь)
+		</div>
+	</div>
+</div>
+<!-- / Модальное окно -->
+
+    <header class="header">
+        <div class="container">
+
+            <nav class="header__navigation">
+                <ul class="header__menu">
+                    <li class="header__menu-logo">
+                        <a href="index.html" class="header__menu-link-logo"><img src="img/Лого.svg" alt=""
+                                class="header__logo-img"></a>
+                    </li>
+                    <li class="header__menu-el"><a href="models.html" class="header__menu-link">Модели</a></li>
+                    <li class="header__menu-el"><a href="#" class="header__menu-link">В наличии</a></li>
+                    <li class="header__menu-el"><a href="#" class="header__menu-link">Конфигуратор</a></li>
+                    <li class="header__menu-el"><a href="services.html" class="header__menu-link">Услуги</a></li>
+                    <li class="header__menu-el"><a href="#" class="header__menu-link">Поддержка</a></li>
+                    <li class="header__menu-el"><a href="#" class="header__menu-link">Проект</a></li>
+                    <li class="header__menu-el"><a href="#" class="header__menu-link">Компания</a></li>
+                    <li class="header__contact-el">Санкт-Петербург</li>
+                    <li class="header__contact-el"><a href="tel:+78005553535" class="tel">8 (800) 555-35-35</a></li>
+                    <li class="header__search">
+                        <a href="universal.html" class="header__menu-link">
+                            <svg width="43" height="39" fill="none" class="header__icon">
+                                <use xlink:href="/sprite.svg#icon-1"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="header__basket">
+                        <a href="universal.html" class="header__menu-link">
+                            <svg width="33" height="36" fill="none" class="header__icon">
+                                <use xlink:href="/sprite.svg#icon-2"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <div class="hamburger-menu">
+                        <input id="menu__toggle" type="checkbox" />
+                        <label class="menu__btn" for="menu__toggle">
+                            <span></span>
+                        </label>
+                        <ul class="menu__box">
+                            <li><a class="menu__item" href="index.html">Главная</a></li>
+                                <li><a class="menu__item" href="models.html">Модели</a></li>
+                                <li><a class="menu__item" href="universal.html">В наличии</a></li>
+                                <li><a class="menu__item" href="services.html">Услуги</a></li>
+                                <li><a class="menu__item" href="universal.html">Поддержка</a></li>
+                                <li><a class="menu__item" href="universal.html">Проект</a></li>
+                                <li><a class="menu__item" href="universal.html">Компания</a></li>
+                        </ul>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="universal">
+        <div class="container">
+            <div class="un">
+                <div class="universal__title">
+                    <p class="universal__p">Поздравляем, Вы попали на универсальную страницу макета!</p>
+                </div>
+                <div class="universal__text">
+                    <p class="universal__text_p">Почему Вы попали сюда? Всё очень просто. Авторы данного сайта слишком
+                        ленивы, чтобы делать все страницы, поэтому работают лишь три страницы: Главная, Модели и Услуги.
+                        Остальные страницы ведут сюда, поэтому Вы можете перемещаться по сайту, нажимая на логотип,
+                        кнопку
+                        “Модели” и кнопку “Услуги”. Вы можете понажимать и другие кнопки, но по большей части они будут
+                        вести сюда. Также вы можете перейти в различные соцсети, находящиеся в самом низу каждой
+                        страницы.
+                        Удачи)</p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="girl">
+            <img src="img/girl.svg" alt="" class="girl__img">
+        </div>
+        <div class="universal__line">
+            <img src="img/Line.svg" alt="" class="line">
+        </div>
+    </section>
+    <section class="map">
+        <div id="map" style="width: 100%; height: 600px"></div>
+    </section>
+    <footer>
+        <div class="footer__top">
+            <div class="container">
+                <div class="LotsOfLinks">
+                    <ul class="LotsOfLinks__models">
+                        <li class="LotsOfLinks__models-title"><a href="models.html"
+                                class="footer__linq-title">Модели</a></li>
+                        <li class="LotsOfLinks__models-ordinary"><a href="universal.html" class="footer__linq">Игровые
+                                компьютеры</a></li>
+                        <li class="LotsOfLinks__models-ordinary"><a href="universal.html" class="footer__linq">Рабочие
+                                станции</a></li>
+                        <li class="LotsOfLinks__models-ordinary"><a href="universal.html" class="footer__linq">Игровые
+                                ноутбуки</a></li>
+                        <li class="LotsOfLinks__models-ordinary"><a href="universal.html"
+                                class="footer__linq">Каталог</a></li>
+                    </ul>
+                    <ul class="LotsOfLinks__servises">
+                        <li class="LotsOfLinks__servises-title"><a href="services.html"
+                                class="footer__linq-title">Услуги</a></li>
+                        <li class="LotsOfLinks__servises-ordinary"><a href="universal.html"
+                                class="footer__linq">Модернизация</a></li>
+                        <li class="LotsOfLinks__servises-ordinary"><a href="universal.html"
+                                class="footer__linq">Техническое обслуживание</a></li>
+                        <li class="LotsOfLinks__servises-ordinary"><a href="universal.html" class="footer__linq">Моддинг
+                                и кастомизация</a></li>
+                        <li class="LotsOfLinks__servises-ordinary"><a href="universal.html"
+                                class="footer__linq">Сервис-центр</a></li>
+                        <li class="LotsOfLinks__servises-ordinary"><a href="universal.html"
+                                class="footer__linq">Трейд-ин</a></li>
+                    </ul>
+                    <ul class="LotsOfLinks__support">
+                        <li class="LotsOfLinks__support-title"><a href="universal.html"
+                                class="footer__linq-title">Поддержка</a></li>
+                        <li class="LotsOfLinks__support-ordinary"><a href="universal.html"
+                                class="footer__linq">Доставка</a></li>
+                        <li class="LotsOfLinks__support-ordinary"><a href="universal.html"
+                                class="footer__linq">Оплата</a></li>
+                        <li class="LotsOfLinks__support-ordinary"><a href="universal.html"
+                                class="footer__linq">Рассрочка и кредит</a></li>
+                        <li class="LotsOfLinks__support-ordinary"><a href="universal.html"
+                                class="footer__linq">Гарантия</a></li>
+                        <li class="LotsOfLinks__support-ordinary"><a href="universal.html" class="footer__linq">FAQ</a>
+                        </li>
+                        <li class="LotsOfLinks__support-ordinary"><a href="universal.html" class="footer__linq">База
+                                знаний</a></li>
+                        <li class="LotsOfLinks__support-ordinary"><a href="universal.html" class="footer__linq">Запись
+                                на сервис</a></li>
+                    </ul>
+                    <ul class="LotsOfLinks__project">
+                        <li class="LotsOfLinks__project-title"><a href="universal.html"
+                                class="footer__linq-title">Проекты</a></li>
+                        <li class="LotsOfLinks__project-ordinary"><a href="universal.html"
+                                class="footer__linq">Блогеры</a></li>
+                        <li class="LotsOfLinks__project-ordinary"><a href="universal.html" class="footer__linq">Игровые
+                                клубы</a></li>
+                        <li class="LotsOfLinks__project-ordinary"><a href="universal.html"
+                                class="footer__linq">Киберспорт</a></li>
+                        <li class="LotsOfLinks__project-ordinary"><a href="universal.html"
+                                class="footer__linq">Мероприятия</a></li>
+                        <li class="LotsOfLinks__project-ordinary"><a href="universal.html" class="footer__linq">Наше
+                                производство</a></li>
+                    </ul>
+                    <ul class="LotsOfLinks__company">
+                        <li class="LotsOfLinks__company-title"><a href="universal.html"
+                                class="footer__linq-title">Компания</a></li>
+                        <li class="LotsOfLinks__company-ordinary"><a href="universal.html"
+                                class="footer__linq">Контакты</a></li>
+                        <li class="LotsOfLinks__company-ordinary"><a href="universal.html" class="footer__linq">О
+                                нас</a></li>
+                        <li class="LotsOfLinks__company-ordinary"><a href="universal.html" class="footer__linq">Почему
+                                мы?</a></li>
+                        <li class="LotsOfLinks__company-ordinary"><a href="universal.html"
+                                class="footer__linq">Новости</a></li>
+                        <li class="LotsOfLinks__company-ordinary"><a href="universal.html"
+                                class="footer__linq">Статьи</a></li>
+                        <li class="LotsOfLinks__company-ordinary"><a href="universal.html"
+                                class="footer__linq">Вакансии</a></li>
+                    </ul>
+                    <ul class="LotsOfLinks__contacts">
+                        <li class="LotsOfLinks__contacts-title">Контакты</li>
+                        <li class="LotsOfLinks__contacts-ordinary">8 (800) 555-35-35</li>
+                        <li class="LotsOfLinks__contacts-ordinary">г. Санкт-Петербург</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="container">
+                <div class="social">
+                    <ul class="social__elements">
+                        <li class="social__el">
+                            <a href="https://vk.com/club209036566" class="social__linq">
+                                <img src="img/VK.svg" alt="" class="social__img">
+                            </a>
+                            <a href="https://vk.com/club209036566" class="social__linq">
+                                <p class="social__p">ВКОНТАКТЕ 1.2млн подписчиков</p>
+                            </a>
+                        </li>
+
+                        <li class="social__el">
+                            <a href="https://www.tiktok.com/@_in_fer_?_t=8W5M8hryf1F&_r=1" class="social__linq">
+                                <img src="img/TIKTOK.svg" alt="" class="social__img">
+                            </a>
+                            <a href="https://www.tiktok.com/@_in_fer_?_t=8W5M8hryf1F&_r=1" class="social__linq">
+                                <p class="social__p">TIKTOK 750к подписчиков</p>
+                            </a>
+                        </li>
+
+                        <li class="social__el">
+                            <a href="https://www.youtube.com/channel/UCPcBq-Uanhu72w8dm667K7g/featured"
+                                class="social__linq">
+                                <img src="img/YOUTUBE.svg" alt="" class="social__img">
+                            </a>
+                            <a href="https://www.youtube.com/channel/UCPcBq-Uanhu72w8dm667K7g/featured"
+                                class="social__linq">
+                                <p class="social__p">YOUTUBE 55 млн просмотров</p>
+                            </a>
+                        </li>
+
+                        <li class="social__el">
+                            <a href="https://t.me/+mfrnyzI4Nps5MzQy" class="social__linq">
+                                <img src="img/TELEGRAM.svg" alt="" class="social__img">
+                            </a>
+                            <a href="https://t.me/+mfrnyzI4Nps5MzQy" class="social__linq">
+                                <p class="social__p">TELEGRAM 12k подписчиков </p>
+                            </a>
+                        </li>
+
+                        <li class="social__el">
+                            <a href="https://dzen.ru/id/5e58093651fa7c4cee464694" class="social__linq">
+                                <img src="img/ANDEX.svg" alt="" class="social__img">
+                            </a>
+                            <a href="https://dzen.ru/id/5e58093651fa7c4cee464694" class="social__linq">
+                                <p class="social__p">ЯНДЕКС.ДЗЕН 1000 подписчиков</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="copyrate">
+                    <p class="copyrate__p">© With Russia from Love 1999-9991</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+<script>
+    $(document).ready(function () {
+        $("body").css("opacity", "1");
+    });
+</script>
+<script type="text/javascript">
+    // Функция ymaps.ready() будет вызвана, когда
+    // загрузятся все компоненты API, а также когда будет готово DOM-дерево.
+    ymaps.ready(init);
+    function init(){
+        // Создание карты.
+        var myMap = new ymaps.Map("map", {
+            // Координаты центра карты.
+            // Порядок по умолчанию: «широта, долгота».
+            // Чтобы не определять координаты центра карты вручную,
+            // воспользуйтесь инструментом Определение координат.
+            center: [59.94854833262802, 30.267594924338454],
+            // Уровень масштабирования. Допустимые значения:
+            // от 0 (весь мир) до 19.
+            zoom: 16
+        });
+        var myPlacemark = new ymaps.Placemark([59.94869070003112, 30.26670369797909],{},{
+            iconLayout: 'default#image',
+            iconImageHref: '/img/girl.svg',
+            iconImageSize: [80, 100],
+        });
+        myMap.geoObjects.add(myPlacemark);
+    }
+</script>
+<script>
+    const modal = document.querySelector('.modal');
+    const closeButton = document.querySelector('.btn-close');
+    const modalTriggers = document.querySelector('#open');
+
+    function openModal(){
+        // modal.classList.add('is-open');
+        document.getElementsByClassName("btn-modal")[0].click();
+    }
+
+    function closeModal(){
+        modal.classList.remove('is-open');
+    }
+
+    modalTriggers.addEventListener('click',openModal)
+
+    modal.addEventListener('click',(a) => {
+        if (a.target == modal){
+            closeModal();
+        }
+    })
+
+    closeButton.addEventListener('click', closeModal);
+    setTimeout(openModal, 1000);
+</script>
+</body>
+
+</html>

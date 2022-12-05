@@ -1,0 +1,37 @@
+.universal{
+    color: white;
+}
+
+.un{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.universal__title{
+    padding-top: 200px;
+    width: 41.7vw;
+}
+
+.universal__text{
+    width: 64vw;
+}
+
+.universal__p{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.universal__text_p{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.universal__line{
+    margin-top: -16px;
+}
+
+.girl{
+    display: flex;
+    justify-content: end;
+}

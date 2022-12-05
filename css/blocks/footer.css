@@ -1,0 +1,138 @@
+footer {
+    color: white;
+}
+
+.footer__top {
+    background-color: #202020;
+}
+
+.footer__bottom {
+    background-color: #111111;
+    padding-bottom: 10px;
+}
+
+.LotsOfLinks {
+    display: flex;
+    height: 335px;
+}
+
+.LotsOfLinks__models {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.LotsOfLinks__models-title {
+    font-size: 1.5rem;
+}
+
+.LotsOfLinks__models-ordinary {
+    font-size: 1.5rem;
+    color: #9E9E9E;
+}
+
+.LotsOfLinks__servises {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.LotsOfLinks__servises-title {
+    font-size: 1.5rem;
+}
+
+.LotsOfLinks__servises-ordinary {
+    font-size: 1.5rem;
+    color: #9E9E9E;
+}
+
+.LotsOfLinks__support {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.LotsOfLinks__support-title {
+    font-size: 1.5rem;
+}
+
+.LotsOfLinks__support-ordinary {
+    font-size: 1.5rem;
+    color: #9E9E9E;
+}
+
+.LotsOfLinks__project {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.LotsOfLinks__project-title {
+    font-size: 1.5rem;
+}
+
+.LotsOfLinks__project-ordinary {
+    font-size: 1.5rem;
+    color: #9E9E9E;
+}
+
+.LotsOfLinks__company {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.LotsOfLinks__company-title {
+    font-size: 1.5rem;
+}
+
+.LotsOfLinks__company-ordinary {
+    font-size: 1.5rem;
+    color: #9E9E9E;
+}
+
+.LotsOfLinks__contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    line-height: 30px;
+    width: 233px;
+}
+
+.LotsOfLinks__contacts-title {
+    font-size: 1.25rem;
+}
+
+.LotsOfLinks__contacts-ordinary {
+    font-size: 1.25rem;
+    color: #9E9E9E;
+}
+
+.social__elements {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+.social__el {
+    display: flex;
+}
+
+.social__p {
+    font-size: 1.25rem;
+    width: 120px;
+}
+
+.copyrate__p {
+    font-size: 1.25rem;
+    color: #9E9E9E;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.footer__linq{
+    color: #9E9E9E;
+}
+.social__img{
+    padding-top: 10px;
+    padding-right: 12px;
+}

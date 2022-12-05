@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+    width: 1920px;
+    font-family: 'Inter', sans-serif;
+    background-color: #111111;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {width:0px;}
+
+.wrapper {
+    background-color: #202020;
+    width: 100%;
+    margin: 0 0px;
+}
+
+.container {
+    margin: 0 auto;
+    margin-left: 10.4vw;
+    width: 79vw;
+}
+
+.container2{
+    margin-left: 255px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+button{
+    cursor: pointer;
+}
+
+
+
+
+
+
+.is-open{
+    display: block;
+}
+/* CSS для кнопки открытия модального окна */
+/* .btn-modal{
+    background:#ff9500;
+    border:#e08403 solid 1px;
+    border-radius:3px;
+    color:#fff;
+    display:inline-block;
+    padding:8px 15px;
+    text-decoration:none;
+    text-align:center;
+    min-width:60px;
+    position:relative;
+    transition:color .1s ease
+}
+.btn-modal:hover{
+    background:#e08403
+} */
+/* CSS для модального окна */
+.modal:before{
+    content:"";
+    display:none;
+    background:rgba(0,0,0,0.9);
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    z-index:502
+}
+.modal:target:before{
+    display:block
+}
+.modal-dialog{
+    background:#0B101A;
+    color:#FFFFFF;
+    font-size:1.5rem;
+    border:#333 solid 1px;
+    border-radius:5px;
+    margin-left:-180px;
+    position:fixed;
+    left:50%;
+    top:-100%;
+    z-index:11;
+    width:360px;
+    -webkit-transform:translate(0,-500%);
+    -ms-transform:translate(0,-500%);
+    transform:translate(0,-500%);
+    -webkit-transition:-webkit-transform .3s ease-out;
+    -moz-transition:-moz-transform .3s ease-out;
+    -o-transition:-o-transform .3s ease-out;
+    transition:transform .3s ease-out;
+    z-index:503
+}
+.modal:target .modal-dialog{
+    -webkit-transform:translate(0,0);
+    -ms-transform:translate(0,0);
+    transform:translate(0,0);
+    top:25%
+}
+.modal-body{
+    padding:20px
+}
+.modal-header,.modal-footer{
+    padding:10px 20px
+}
+.modal-header{
+    border-bottom:#CAF175 solid 1px;
+    font-size:20px
+}
+.btn-close{
+    color:#CAF175;
+    font-size:30px;
+    text-decoration:none;
+    position:absolute;
+    right:5px;
+    top:0
+}
+.btn-close:hover{
+    color:#919191
+}
+/*добавляем, чтобы остановить прокручивание вверх*/
+#close{
+    display:none
+}
+
+button{
+    transition: all .35s ease-in;
+
+}
+button:hover{
+    background-color: #6666FF;
+	transition: all .35s ease-in;
+}

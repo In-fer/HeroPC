@@ -1,0 +1,109 @@
+.services {
+    background-color: #111111;
+    color: white;
+}
+
+.services__h2 {
+    margin-top: auto;
+    font-size: 2.5625rem;
+    text-align: center;
+    padding-top: 21px;
+}
+
+.services__linq{
+    color: #AAAAAA;
+}
+
+.services__p {
+    font-size: 1rem;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.services__els {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 139px;
+    margin-bottom: 0px;
+}
+
+.services__el{
+    margin-top: 40px;
+}
+
+.services__h3 {
+    font-size: 1.8125rem;
+    text-align: center;
+    text-shadow:
+    2px 2px 2px #000000,
+    0 2px 2px #000000,
+    -2px 0 2px #000000,
+    0 -2px 2px #000000;
+}
+
+.services__card-p {
+    font-size: 1rem;
+    color: #BDED53;
+    text-align: center;
+    text-shadow:
+    2px 2px 2px #000000,
+    0 2px 2px #000000,
+    -2px 0 2px #000000,
+    0 -2px 2px #000000;
+}
+
+.services__card-p-linq{
+    color: #BDED53;
+}
+
+.card-1{
+    background-image: url('/img/upgrade.svg');
+    height: 282px;
+    width: 282px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    line-height: 2px;
+}
+
+.card-2{
+    background-image: url('/img/service.svg');
+    height: 282px;
+    width: 282px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    line-height: 2px;
+}
+
+.card-3{
+    background-image: url('/img/service-center.svg');
+    height: 282px;
+    width: 282px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    line-height: 2px;
+}
+
+.card-4{
+    background-image: url('/img/modding.svg');
+    height: 282px;
+    width: 282px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    line-height: 2px;
+}
+
+.card-5{
+    background-image: url('/img/trade-in.svg');
+    height: 282px;
+    width: 282px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    line-height: 2px;
+}

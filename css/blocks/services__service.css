@@ -1,0 +1,66 @@
+.service__el {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-top: 110px;
+    color: white;
+}
+
+.service__cards {
+    text-align: center;
+}
+
+.service__line {
+    margin-left: -200px;
+    margin-top: 0px;
+}
+
+.service__upgrade {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("/img/service_upgrade.svg");
+    width: 24vw;
+    height: 24vw;
+    background-repeat: no-repeat;
+}
+
+.service__maintenance {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("/img/maintenance.svg");
+    width: 24vw;
+    height: 24vw;
+    background-repeat: no-repeat;
+}
+
+.service__workshop {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("/img/workshop.svg");
+    width: 24vw;
+    height: 24vw;
+    background-repeat: no-repeat;
+}
+
+.service__modding {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("/img/service_modding.svg");
+    width: 24vw;
+    height: 24vw;
+    background-repeat: no-repeat;
+}
+
+.service__trade_in {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("/img/trade_in.svg");
+    width: 24vw;
+    height: 24vw;
+    background-repeat: no-repeat;
+}
+
+.service__text {
+    padding-top: 60%;
+    font-size: 1.25rem;
+    color: #9C9C9C;
+}
+
+.service__h3 {
+    font-size: 1.875rem;
+}
+
+.service__p {
+    color: #BDED53;
+}

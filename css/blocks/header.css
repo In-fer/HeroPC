@@ -1,0 +1,108 @@
+header {
+    background-color: #0B101A;
+    font-size: 1.20rem;
+    color: #CAF175;
+    display: flex;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    z-index: 500;
+}
+
+.header__navigation {
+    margin-top: 8px;
+}
+
+.header__menu-link {
+    text-decoration: none;
+    color: #CAF175;
+
+}
+.header__menu-link-logo {
+    text-decoration: none;
+    color: #CAF175;
+
+}
+
+
+
+/* a.header__menu-link{
+    color:#CAF175;
+    text-transform: uppercase;
+    text-decoration:none;
+    text-align:center;
+    display: block;
+    background-image: linear-gradient(to left,transparent,transparent 50%,#33FFFF 50%,#CAF175);
+    background-position: 100% 0;
+    background-size: 200% 200%;
+    transition: all .25s ease-in;
+   }
+   a.header__menu-link:hover {
+   background-position: 0 0;
+   color:#000;
+   } */
+
+li {
+    list-style-type: none;
+    vertical-align: middle;
+    justify-content: space-between;
+
+}
+
+.header__contact-el {
+    font-size: 0.9375rem;
+}
+
+ul.header__menu {
+    margin: 0;
+    padding: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul.header__menu li {
+    display: inline;
+    margin-right: 0.5%;
+    padding: 3px;
+    -moz-text-shadow: 0 0 10px #CAF175;
+    -webkit-text-shadow: 0 0 10px #CAF175;
+    text-shadow: 0 0 10px #CAF175;
+
+}
+
+ul.header__contact {
+    margin: 0;
+    padding: 4px;
+
+}
+
+ul.header__contact li {
+    display: inline;
+    margin-right: 5px;
+    padding: 3px;
+
+}
+input{
+    display: none;
+}
+.menu__box{
+    display: none;
+}
+.tel{
+    color: #CAF175;
+}
+
+
+.header__icon {
+    animation: animation 3s infinite alternate;
+  }
+
+  @keyframes animation {
+    from {
+      fill: red;
+    }
+    to {
+        fill: green;
+    }
+  }

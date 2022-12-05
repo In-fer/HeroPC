@@ -1,0 +1,34 @@
+.spec__card_p{
+    color: #A0A0A0;
+    font-size: 1rem;
+    text-align: center;
+    width: 155px;
+}
+
+.spec__bottom_txt{
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.specifications__cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.color__top{
+    display: flex;
+    justify-content: space-around
+}
+
+.icon__top{
+    display: flex;
+    justify-content: center;
+}
+
+.specifications__cards-el{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 50px;
+}
